@@ -4,6 +4,7 @@ import { VitePWA } from 'vite-plugin-pwa';
 import { fileURLToPath, URL } from 'node:url';
 
 export default defineConfig({
+  base: '/bkk-laos-2026/',
   plugins: [
     vue(),
     VitePWA({
@@ -16,7 +17,7 @@ export default defineConfig({
         theme_color: '#D4A017',
         background_color: '#ffffff',
         display: 'standalone',
-        start_url: '/',
+        start_url: '/bkk-laos-2026/',
         lang: 'zh-TW',
         icons: [
           { src: 'pwa-192x192.png', sizes: '192x192', type: 'image/png' },
