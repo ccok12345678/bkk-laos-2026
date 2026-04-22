@@ -29,7 +29,7 @@ const currentTab = computed(() => route.meta.tab as string | undefined);
   <nav
     :class="
       cn(
-        'fixed bottom-0 inset-x-0 z-30 bg-background/95 backdrop-blur border-t border-border pb-safe-tab lg:hidden',
+        'fixed bottom-0 inset-x-0 z-30 bg-background/95 backdrop-blur border-t border-border safe-bottom lg:hidden',
         $props.class,
       )
     "

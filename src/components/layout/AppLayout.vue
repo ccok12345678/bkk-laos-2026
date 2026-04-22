@@ -11,7 +11,7 @@ import EmergencyFab from './EmergencyFab.vue';
     <div class="lg:pl-60">
       <TopBar class="lg:hidden" />
       <main
-        class="mx-auto max-w-screen-xl px-4 pt-4 md:pt-6 pb-20 md:pb-8 lg:pb-10"
+        class="mx-auto max-w-screen-xl px-4 pt-4 md:pt-6 pb-safe-tab md:pb-8 lg:pb-10"
       >
         <router-view v-slot="{ Component }">
           <Transition name="fade" mode="out-in">

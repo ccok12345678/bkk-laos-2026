@@ -24,6 +24,7 @@
     "autoprefixer": "^10.4.20",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
+    "playwright": "1.59.1",
     "postcss": "^8.4.49",
     "radix-vue": "^1.9.12",
     "tailwind-merge": "^2.5.5",
